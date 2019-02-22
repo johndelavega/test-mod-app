@@ -8,6 +8,6 @@ import (
 
 func main() {
 
-	fmt.Println("test-mod-app")
+	fmt.Println("test-mod-app v0.0.1")
 	fmt.Println(replacemod.FunTest())
 }

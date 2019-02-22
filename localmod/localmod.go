@@ -6,7 +6,7 @@ import (
 
 // FuncTest test for local module import reference
 func FuncTest() string {
-	const test = "FuncTest() - localmod"
+	const test = "FuncTest() - localmod v0.0.1"
 	fmt.Println(test)
 	return test
 }
