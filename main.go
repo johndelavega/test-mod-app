@@ -6,7 +6,7 @@ import (
 	anyName "github.com/johndelavega/test-mod-app/replacemod"
 )
 
-const _version = "v0.1.2"
+const _version = "v0.1.3"
 
 func main() {
 
