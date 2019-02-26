@@ -3,16 +3,18 @@ package main
 import (
 	"fmt"
 
+	golib "github.com/johndelavega/go-lib"
 	"github.com/johndelavega/gomod"
 	anyName "github.com/johndelavega/test-mod-app/replacemod"
 )
 
-const _version = "v0.1.5"
+const _version = "v0.1.6"
 
 func main() {
 
 	fmt.Printf("test-mod-app %s\n", _version)
 	fmt.Println("main.go: " + anyName.FuncTest())
+	fmt.Println("main.go: " + golib.FuncTest())
 	fmt.Println(fmt.Sprintf("gomod.Gomod(): %s\n", gomod.Gomod()))
 
 }
